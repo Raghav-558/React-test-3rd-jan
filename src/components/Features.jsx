@@ -35,7 +35,7 @@ const Features = () => {
   }
 
   return (
-    <div className='min-h-screen bg-primary-gray py-10 flex items-center'>
+    <div className='bg-primary-gray py-10 flex items-center'>
       <div className='max-w-[1312px] px-4 mx-auto'>
         <h2 className='text-4xl leading-[44px] text-center font-bold text-dark-black max-md:text-3xl '>
           Event einsenden
@@ -133,7 +133,7 @@ const Features = () => {
                 type='text'
                 placeholder='Details zur Veranstaltung'
                 required
-                className='py-[55.5px] w-full rounded-[30px] px-4 !placeholder-light-gray outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
+                className='py-[55.5px] w-full resize-none rounded-[30px] px-4 !placeholder-light-gray outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
             </div>
             <div className='flex justify-center pt-5'>

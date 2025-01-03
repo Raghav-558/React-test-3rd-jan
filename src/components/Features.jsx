@@ -37,9 +37,9 @@ const Features = () => {
   return (
     <div className='min-h-screen bg-primary-gray py-10 flex items-center'>
       <div className='max-w-[1312px] px-4 mx-auto'>
-        <h1 className='text-4xl leading-[44px] text-center font-bold text-dark-black max-md:text-3xl '>
+        <h2 className='text-4xl leading-[44px] text-center font-bold text-dark-black max-md:text-3xl '>
           Event einsenden
-        </h1>
+        </h2>
         <p className='text-center font-light text-xl leading-[30px] max-w-[768px] mx-auto pt-5 max-md:pt-3 text-light-gray max-md:text-base'>
           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
           kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
@@ -82,7 +82,7 @@ const Features = () => {
                 value={data.select}
                 id='kategorie'
                 name='kategorie'
-                className='py-[17.5px] px-4 pr-[23px] bg-white w-full outline-none rounded-[30px] mb-5 text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
+                className='py-[17.5px] px-4 pr-[23px] bg-white w-full outline-none rounded-[30px] mb-5 text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray cursor-pointer'
               >
                 <option value='konzert'>Kategorie</option>
                 <option value='Phase 1'>Phase 1</option>

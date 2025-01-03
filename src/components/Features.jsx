@@ -53,9 +53,9 @@ const Features = () => {
             action='#'
             className='text-light-gray text-sm leading-[21px] font-bold pt-5'
           >
-            <div className='flex gap-4 py-2 px-4 bg-white rounded-[30px] max-lg:rounded-[20px] items-center w-full max-h-28 mb-5 border-[0.5px] border-dashed border-very-light-gray'>
+            <div className='flex gap-4 py-2 px-4 bg-white rounded-[30px] items-center w-full max-h-28 mb-5 border-[0.5px] border-dashed border-very-light-gray max-lg:rounded-[20px]'>
               <img
-                className={`max-w-24 h-24 w-full object-cover rounded-[13px] ${
+                className={`rounded-[13px] max-w-24 h-24 w-full object-cover ${
                   image === null ? 'hidden' : ''
                 }`}
                 src={image}
@@ -63,7 +63,7 @@ const Features = () => {
               />
               <label
                 htmlFor='file'
-                className='flex justify-center items-center max-w-24 border border-dashed rounded-[20px] w-full h-[80px] cursor-pointer leading-[21px]'
+                className='flex justify-center items-center max-w-24 w-full h-[80px] cursor-pointer leading-[21px] border border-dashed rounded-[20px]'
               >
                 <PlusIcon />
               </label>
@@ -82,7 +82,7 @@ const Features = () => {
                 value={data.select}
                 id='kategorie'
                 name='kategorie'
-                className='py-[17.5px] px-4 pr-[23px] bg-white w-full outline-none rounded-[30px] mb-5 text-sm font-bold leading-[21px]'
+                className='py-[17.5px] px-4 pr-[23px] bg-white w-full outline-none rounded-[30px] mb-5 text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               >
                 <option value='konzert'>Kategorie</option>
                 <option value='Phase 1'>Phase 1</option>
@@ -97,7 +97,7 @@ const Features = () => {
                 type='text'
                 placeholder='Title'
                 required
-                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px]'
+                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
               <input
                 onChange={e => setData({ ...data, datum: e.target.value })}
@@ -105,7 +105,7 @@ const Features = () => {
                 type='text'
                 placeholder='Datum'
                 required
-                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px]'
+                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
             </div>
             <div className='flex items-center gap-5 pt-5 max-sm:flex-col'>
@@ -115,7 +115,7 @@ const Features = () => {
                 type='text'
                 placeholder='Standort'
                 required
-                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px]'
+                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
               <input
                 onChange={e => setData({ ...data, preis: e.target.value })}
@@ -123,7 +123,7 @@ const Features = () => {
                 type='text'
                 placeholder='Preis'
                 required
-                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px] '
+                className='!placeholder-light-gray py-[17.5px] px-4 rounded-[30px] w-full outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
             </div>
             <div className='pt-5 '>
@@ -133,7 +133,7 @@ const Features = () => {
                 type='text'
                 placeholder='Details zur Veranstaltung'
                 required
-                className='py-[55.5px] w-full rounded-[30px] px-4 !placeholder-light-gray outline-none text-sm font-bold leading-[21px]'
+                className='py-[55.5px] w-full rounded-[30px] px-4 !placeholder-light-gray outline-none text-sm font-bold leading-[21px] border-[0.5px] border-very-light-gray'
               />
             </div>
             <div className='flex justify-center pt-5'>

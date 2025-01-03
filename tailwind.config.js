@@ -10,7 +10,8 @@ module.exports = {
         "dark-black": "#222222",
         "primary-gray": "#F5F9FC",
         "light-blue": "#0071BB",
-        "dark-blue": "#39A3E7"
+        "dark-blue": "#39A3E7",
+        "very-light-gray": "#D1E0E9"
       },
       screens: {
         xlg: '1050px',

@@ -5,11 +5,11 @@ const StarsPrint = () => {
   return (
     <div className='max-w-[100px] mx-auto py-10'>
       {STARS_LIST.map((item, i) => (
-        <div className='flex gap-2' key={i}>
+        <div key={i} className='flex gap-2'>
           {item.stars.map((stars, i) => (
-            <span className='text-2xl font-medium text-red-700' key={i}>
+            <div key={i} className='text-2xl font-medium text-red-700'>
               {stars}
-            </span>
+            </div>
           ))}
         </div>
       ))}

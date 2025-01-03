@@ -20,7 +20,7 @@ input::-webkit-inner-spin-button {
 
 select {
   -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
+  background-image: url('./assets/images/arrow.webp');
+  background-position: right 16px top 50%, 0 0;
+  background-repeat: no-repeat;
 }
